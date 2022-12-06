@@ -10,9 +10,9 @@ namespace webCalculator.Models
         [Key]
         public int ProdId { get; set; }
         public string ProdTitle { get; set; }
-        public String ProdDescription { get; set; }
-        public String ProdQuantity { get; set; }
-        public String ProdBrand { get; set; }
+        public string ProdDescription { get; set; }
+        public string ProdQuantity { get; set; }
+        public string ProdBrand { get; set; }
         public string ProdCategory { get; set; }
         public decimal ProdPrice { get; set; }
     }
