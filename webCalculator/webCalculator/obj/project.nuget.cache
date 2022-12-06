@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/glaFCyEkTSHcR6Hzp23I2aCxyWmUYqwEEcT5vcmlXQEHb//K6dLoECpX4uOs0/RvgcQizj7cqbs0j5xsoii4Q==",
+  "dgSpecHash": "bEbEdLbcQ7GFyonNBAG1U4S6VqvxvnEVAgnyXHjOLlgMl30j7D8Q9C51JChdFtjOMU6pMWjWopbEH1D0G67DdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\syedn\\source\\repos\\webCalculator\\webCalculator\\webCalculator.csproj",
+  "projectFilePath": "D:\\CSharp\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\webCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
