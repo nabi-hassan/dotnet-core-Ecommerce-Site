@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Product Data";
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Product CRUD.</p>
+<div class="text-center">
+    <form asp-controller="Projects" asp-action="proddta" method="post">
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_ID"
+               placeholder="Product ID" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Title"
+               placeholder="Product Title" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Description"
+               placeholder="Product Description" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Quantity"
+               placeholder="Product Quantity" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Brand"
+               placeholder="Product Brand" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Category"
+               placeholder="Product Category" />
+        <input type="text"
+               asp-controller="Projects"
+               asp-action="Calculator"
+               name="Product_Price"
+               placeholder="Product Price" />
+        
+        <br/>
+        <button type="submit">Add Product</button>
+    </form>
+</div>
+    
+<table>  
+   <tr>  
+      <th>Product ID</th>  
+      <th>Product Title</th>  
+      <th>Product Description</th>  
+      <th>Product Quantity</th>  
+      <th>Product Brand</th>  
+      <th>Product Category</th>  
+      <th>Product Price</th>  
+   </tr>  
+   <tr>  
+      <td>@ViewBag.prod_ID</td>  
+      <td>@ViewBag.prod_Title</td>
+      <td>@ViewBag.prod_Description</td>
+      <td>@ViewBag.prod_Quantity</td>
+      <td>@ViewBag.prod_Brand</td>
+      <td>@ViewBag.prod_Category</td>
+      <td>@ViewBag.prod_Price</td>
+   </tr>  
+</table>
