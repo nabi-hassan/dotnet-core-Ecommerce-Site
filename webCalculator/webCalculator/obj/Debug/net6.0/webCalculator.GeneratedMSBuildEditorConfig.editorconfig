@@ -8,45 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = webCalculator
 build_property.RootNamespace = webCalculator
-build_property.ProjectDir = D:\CSharp\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\
+build_property.ProjectDir = D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CSharp\dotnet-core-Ecommerce-Site\webCalculator\webCalculator
+build_property.MSBuildProjectDirectory = D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Home/Index.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Home/Privacy.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Projects/Calculator.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Projects/Calculator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ2FsY3VsYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Projects/proddta.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Projects/proddta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNccHJvZGR0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/Error.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Projects/ProductData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcUHJvZHVjdERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/_ViewImports.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/_ViewStart.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharp/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/_Layout.cshtml]
+[D:/dotnet-core-Ecommerce-Site/webCalculator/webCalculator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2hf4cq9c7j

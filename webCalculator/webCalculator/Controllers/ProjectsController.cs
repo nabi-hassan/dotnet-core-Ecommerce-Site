@@ -29,15 +29,15 @@ namespace webCalculator.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult proddta(string Product_ID, string Product_Title, string Product_Description, string Product_Quantity, string Product_Brand, string Product_Category, string Product_Price)
+        public IActionResult proddta(int Product_ID, string Product_Title, string Product_Description, int Product_Quantity, string Product_Brand, string Product_Category, decimal Product_Price)
         {
-            string productID = Product_ID;
+            string productID = Product_ID.ToString();
             string productTitle = Product_Title;
             string productDescription = Product_Description;
-            string productQuantity = Product_Quantity;
+            string productQuantity = Product_Quantity.ToString();
             string productBrand = Product_Brand;
             string productCategory = Product_Category;
-            string productPrice = Product_Price;
+            string productPrice = Product_Price.ToString();
 
 
             ViewBag.prod_ID = productID;
