@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using webCalculator.Models;
 
 namespace webCalculator.Controllers
 {
@@ -29,24 +30,21 @@ namespace webCalculator.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult proddta(int Product_ID, string Product_Title, string Product_Description, int Product_Quantity, string Product_Brand, string Product_Category, decimal Product_Price)
+        public IActionResult proddta(ProductData product)
         {
-            string productID = Product_ID.ToString();
-            string productTitle = Product_Title;
-            string productDescription = Product_Description;
-            string productQuantity = Product_Quantity.ToString();
-            string productBrand = Product_Brand;
-            string productCategory = Product_Category;
-            string productPrice = Product_Price.ToString();
+            using (var proddb = new ModelsContext()) { 
+                proddb.Add(product);
+                proddb.SaveChanges();
+            }
 
 
-            ViewBag.prod_ID = productID;
+         /*   ViewBag.prod_ID = productID;
             ViewBag.prod_Title = productTitle;
             ViewBag.prod_Description = productDescription;
             ViewBag.prod_Quantity = productQuantity;
             ViewBag.prod_Brand = productBrand;
             ViewBag.prod_Category = productCategory;
-            ViewBag.prod_Price = productPrice;
+            ViewBag.prod_Price = productPrice;*/
             return View();
         }
 

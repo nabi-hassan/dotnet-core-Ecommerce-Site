@@ -1,4 +1,5 @@
-﻿
+﻿@model webCalculator.Models.ProductData
+
 @{
     ViewData["Title"] = "Product Data";
 
@@ -9,41 +10,48 @@
 <p>Product CRUD.</p>
 <div class="text-center">
     <form asp-controller="Projects" asp-action="proddta" method="post">
-        <input type="number"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_ID"
-               placeholder="Product ID" />
-        <input type="text"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Title"
-               placeholder="Product Title" />
-        <input type="text"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Description"
-               placeholder="Product Description" />
-        <input type="number"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Quantity"
-               placeholder="Product Quantity" />
-        <input type="text"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Brand"
-               placeholder="Product Brand" />
-        <input type="text"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Category"
-               placeholder="Product Category" />
-        <input type="number"
-               asp-controller="Projects"
-               asp-action="proddta"
-               name="Product_Price"
-               placeholder="Product Price" />
+        <div class="form-group">
+            <label>Product ID</label>
+            <input type="number"
+                   asp-for="ProdId"
+                   placeholder="Product ID" />
+        </div class="form-group">
+        <div>
+            <label>Product Title</label>
+            <input type="text"
+                   asp-for="ProdTitle"
+                   placeholder="Product Title" />
+        </div>
+        <div class="form-group">
+            <label>Product Description</label>
+            <input type="text"
+                   asp-for="ProdDescription"
+                   placeholder="Product Description" />
+        </div>
+        <div class="form-group">
+            <label>Product Quantity</label>
+            <input type="number"
+                   asp-for="ProdQuantity"
+                   placeholder="Product Quantity" />
+        </div>
+        <div class="form-group">
+            <label>Product Brand</label>
+            <input type="text"
+                   asp-for="ProdBrand"
+                   placeholder="Product Brand" />
+        </div>
+        <div class="form-group">
+            <label>Product Category</label>
+            <input type="text"
+                   asp-for="ProdCategory"
+                   placeholder="Product Category" />
+        </div>
+        <div class="form-group">
+            <label>Product Price</label>
+            <input type="number"
+                   asp-for="ProdPrice"
+                   placeholder="Product Price" />
+        </div>
         
         <br/>
         <button type="submit">Add Product</button>
