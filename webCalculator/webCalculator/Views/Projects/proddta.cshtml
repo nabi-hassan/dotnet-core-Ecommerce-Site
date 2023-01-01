@@ -57,24 +57,39 @@
         <button type="submit">Add Product</button>
     </form>
 </div>
+   
+
+<div class="container">
+    @if(ViewBag.prods != null && ViewBag.prods.Count >0){
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product ID</th>  
+                    <th>Product Title</th>  
+                    <th>Product Description</th>  
+                    <th>Product Quantity</th>  
+                    <th>Product Brand</th>  
+                    <th>Product Category</th>  
+                    <th>Product Price</th>
+                </tr>  
+            </thead>
+
+            <tbody>
+                @foreach(var prod in ViewBag.prods){
+                    <tr>  
+                        <td>@prod.ProdId</td>  
+                        <td>@prod.ProdTitle</td>
+                        <td>@prod.ProdDescription</td>
+                        <td>@prod.ProdQuantity</td>
+                        <td>@prod.ProdBrand</td>
+                        <td>@prod.ProdCategory</td>
+                        <td>@prod.ProdPrice</td>
+                    </tr>  
+                }
+                
+            </tbody>
+           
+        </table>
+    }
     
-<table class="table">
-    <tr>  
-      <th>Product ID</th>  
-      <th>Product Title</th>  
-      <th>Product Description</th>  
-      <th>Product Quantity</th>  
-      <th>Product Brand</th>  
-      <th>Product Category</th>  
-      <th>Product Price</th>  
-   </tr>  
-   <tr>  
-      <td>@ViewBag.prod_ID</td>  
-      <td>@ViewBag.prod_Title</td>
-      <td>@ViewBag.prod_Description</td>
-      <td>@ViewBag.prod_Quantity</td>
-      <td>@ViewBag.prod_Brand</td>
-      <td>@ViewBag.prod_Category</td>
-      <td>@ViewBag.prod_Price</td>
-   </tr>  
-</table>
+</div>

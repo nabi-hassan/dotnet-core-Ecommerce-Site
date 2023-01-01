@@ -24,9 +24,18 @@ namespace webCalculator.Controllers
             return View();
         }
 
-        [HttpGet]
+        
         public IActionResult proddta()
         {
+            List<ProductData> products = new List<ProductData>();
+
+            using (var db = new ModelsContext())
+            {
+                products = db.Products.ToList();
+            }
+
+            ViewBag.prods = products;
+
             return View();
         }
         [HttpPost]
@@ -37,14 +46,22 @@ namespace webCalculator.Controllers
                 proddb.SaveChanges();
             }
 
+            List<ProductData> products = new List<ProductData>();
 
-         /*   ViewBag.prod_ID = productID;
-            ViewBag.prod_Title = productTitle;
-            ViewBag.prod_Description = productDescription;
-            ViewBag.prod_Quantity = productQuantity;
-            ViewBag.prod_Brand = productBrand;
-            ViewBag.prod_Category = productCategory;
-            ViewBag.prod_Price = productPrice;*/
+            using (var db = new ModelsContext())
+            {
+                products = db.Products.ToList();
+            }
+
+            ViewBag.prods = products;
+
+            /*   ViewBag.prod_ID = productID;
+               ViewBag.prod_Title = productTitle;
+               ViewBag.prod_Description = productDescription;
+               ViewBag.prod_Quantity = productQuantity;
+               ViewBag.prod_Brand = productBrand;
+               ViewBag.prod_Category = productCategory;
+               ViewBag.prod_Price = productPrice;*/
             return View();
         }
 

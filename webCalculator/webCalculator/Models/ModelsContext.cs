@@ -12,6 +12,9 @@ namespace webCalculator.Models
         public DbSet<ProductData> Products { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite(@"Data Source=D:\CSharp\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\Data\ProductsDatabase.db");
+        {
+            string databasePath = $"{AppDomain.CurrentDomain.SetupInformation.ApplicationBase}\\Data\\ProductsDatabase.db";
+            options.UseSqlite(@"Data Source={databasePath}");
+        }
     }
 }
