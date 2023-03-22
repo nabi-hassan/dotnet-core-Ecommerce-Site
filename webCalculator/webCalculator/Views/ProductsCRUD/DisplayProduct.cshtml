@@ -1,0 +1,62 @@
+﻿@model webCalculator.Models.ProductData
+<script src="~/js/ProductCRUD.js"> </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<link href="~/css/DisplayProduct.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewData["Title"] = "Display Products";
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+   
+<div class="container">
+    @if(ViewBag.prods != null && ViewBag.prods.Count >0){
+        <table class="table" >
+            <thead>
+                <tr>
+                    <th>Product ID</th>  
+                    <th>Product Title</th>  
+                    <th>Product Description</th>  
+                    <th>Product Quantity</th>  
+                    <th>Product Brand</th>  
+                    <th>Product Category</th>  
+                    <th>Product Price</th>
+                    <th>Action</th>
+                </tr>  
+            </thead>
+
+            <tbody>
+                @foreach(var prod in ViewBag.prods){
+                    <tr>
+                        <td>@prod.ProdId</td>  
+                        <td>@prod.ProdTitle</td>
+                        <td>@prod.ProdDescription</td>
+                        <td>@prod.ProdQuantity</td>
+                        <td>@prod.ProdBrand</td>
+                        <td>@prod.ProdCategory</td>
+                        <td>@prod.ProdPrice</td>
+                        <td>
+                            <div style="display: flex;">
+                                <div class="Update col-sm-12">
+                                    <form asp-action="UpdateProduct" asp-controller="ProductsCRUD" method="post">
+                                        <input type="hidden" asp-for="ProdId" value="@prod.ProdId"/>
+                                            <button type="submit" class="btn btn-primary">Update</button>
+                                    </form>
+                                </div>
+
+                                <div class="delete col-sm-12">
+                                    <button type="submit" class="btn btn-primary" onclick="DeleteProdjs(@prod.ProdId)">Delete</button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>  
+                }
+            </tbody>
+           
+        </table>
+    }
+    
+</div>

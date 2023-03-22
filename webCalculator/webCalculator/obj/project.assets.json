@@ -10760,9 +10760,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\webCalculator.csproj",
-      "projectName": "webCalculator",
-      "projectPath": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\webCalculator.csproj",
+      "projectUniqueName": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\eCommerce.csproj",
+      "projectName": "eCommerce",
+      "projectPath": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\eCommerce.csproj",
       "packagesPath": "C:\\Users\\syedn\\.nuget\\packages\\",
       "outputPath": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\obj\\",
       "projectStyle": "PackageReference",
@@ -10837,7 +10837,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

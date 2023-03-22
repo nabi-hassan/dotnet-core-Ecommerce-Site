@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b7ba/CuVSGSIKNaTqeagyyoWc4M1WHcpypLz7ZPzLuyhEcIIomlTRsn45XlHB/LZbISEO5DxTy5WebBPJ1ncmw==",
+  "dgSpecHash": "7gSnHEq3GqVP32mh/UtRKIOQWIWOKB98Kpr8dba3lggoHhVvudqvxYrOkubf7QQGj+VQuOUDyyWWsxnytYUklA==",
   "success": true,
-  "projectFilePath": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\webCalculator.csproj",
+  "projectFilePath": "D:\\dotnet-core-Ecommerce-Site\\webCalculator\\webCalculator\\eCommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\syedn\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\syedn\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

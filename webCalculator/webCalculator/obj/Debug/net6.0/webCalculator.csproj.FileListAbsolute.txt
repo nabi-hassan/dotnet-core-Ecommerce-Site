@@ -644,3 +644,8 @@ D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\bin\Debug\net6.0\runti
 D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\obj\Debug\net6.0\staticwebassets\msbuild.webCalculator.Microsoft.AspNetCore.StaticWebAssets.props
+D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\obj\Debug\net6.0\staticwebassets\msbuild.build.webCalculator.props
+D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.webCalculator.props
+D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.webCalculator.props
+D:\dotnet-core-Ecommerce-Site\webCalculator\webCalculator\obj\Debug\net6.0\staticwebassets.pack.json
